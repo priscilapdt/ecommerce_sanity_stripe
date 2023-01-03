@@ -3,7 +3,7 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <p>2023 E-commerce Headphones Store </p>
-      <p> All right reserverd</p>
+      <p> All Right Reserverd</p>
       <p className="icons">
         <AiFillInstagram />
         <AiOutlineTwitter />
