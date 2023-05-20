@@ -577,7 +577,18 @@ span.text-red {
   color: green;
   font-size: 40px;
 }
+.cancel .icon {
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+}
 .success h2 {
+  text-transform: capitalize;
+  margin-top: 15px 0px;
+  font-weight: 900;
+  font-size: 40px;
+  color: #324d67;
+}
+.cancel h2 {
   text-transform: capitalize;
   margin-top: 15px 0px;
   font-weight: 900;
@@ -742,6 +753,9 @@ span.text-red {
     height: 350px;
   }
   .success h2 {
+    font-size: 17px;
+  }
+  .cancel h2 {
     font-size: 17px;
   }
   .btn-container {
